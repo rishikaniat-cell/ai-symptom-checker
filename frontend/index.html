@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Symptom Checker</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding: 50px;">
+
+  <h1>Smart Symptom Checker</h1>
+
+  <input type="text" placeholder="Enter your symptoms..." style="padding:10px; width:300px;">
+  
+  <br><br>
+
+  <button onclick="showResult()" style="padding:10px 20px;">Check</button>
+
+  <h3 id="result"></h3>
+
+  <script>
+    function showResult() {
+      document.getElementById("result").innerText =
+      "Possible condition: Mild Fever\nAdvice: Take rest, drink water, consult doctor if persists.";
+    }
+  </script>
+
+</body>
+</html>
